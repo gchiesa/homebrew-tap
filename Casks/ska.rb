@@ -3,7 +3,7 @@ cask "ska" do
   name "ska"
   desc "SKA is a CLI and Library to scaffold, maintain and update from upstream blueprint your projects."
   homepage "https://github.com/gchiesa/ska"
-  version "1.1.4"
+  version "1.1.5"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "ska" do
   on_macos do
     on_intel do
       url "https://github.com/gchiesa/ska/releases/download/v#{version}/ska_#{version}_darwin_amd64.tar.gz"
-      sha256 "1cbd00feaf9cb5e33d48b599a6ee7b1a3620bf37055fbb7395b80293411a237b"
+      sha256 "5dd6edf47eb2df21780e8d1015af331f729d091057a02782b3152112398c03df"
     end
     on_arm do
       url "https://github.com/gchiesa/ska/releases/download/v#{version}/ska_#{version}_darwin_arm64.tar.gz"
-      sha256 "a8fcd822f1e26dce871577902f82dee7b56f5817961f855359d00c693a0d2fb1"
+      sha256 "c21c9b41b9eb2cc676a5023fa9c9c220447ad8929d1eea996b4322e69845c6f5"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/gchiesa/ska/releases/download/v#{version}/ska_#{version}_linux_amd64.tar.gz"
-      sha256 "441b15c3ce3fd88dc1677e7fe132dd042403da7a84a74bcbd15b0dee39837ce0"
+      sha256 "1066448f1826d3901273096a1792be3c08a4572a6b55ba4c2e8b67032ca937e4"
     end
     on_arm do
       url "https://github.com/gchiesa/ska/releases/download/v#{version}/ska_#{version}_linux_arm64.tar.gz"
-      sha256 "a9a43ffe673c7bf08f44a0d461e55b8a882a09d437e96386e31e2cc284f28d9f"
+      sha256 "bd1b403150e7ac99b6c998416289ce6eb64b2c713bf94852ea928c93b5c80b54"
     end
   end
 
